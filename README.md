@@ -9,6 +9,7 @@ Monokai Theme for Neovim with tree-sitter support
 - Monokai Pro (monokai_pro)
 - Monokai Soda (monokai_soda)
 - Monokai Ristretto (monokai_ristretto)
+- Monokai Vibrant (monokai_vibrant)
 
 ## Prerequisites
 
@@ -34,6 +35,7 @@ colorscheme monokai
 colorscheme monokai_pro
 colorscheme monokai_soda
 colorscheme monokai_ristretto
+colorscheme monokai_vibrant
 ```
 
 In Lua:
@@ -43,6 +45,7 @@ require('monokai').setup {}
 require('monokai').setup { palette = require('monokai').pro }
 require('monokai').setup { palette = require('monokai').soda }
 require('monokai').setup { palette = require('monokai').ristretto }
+require('monokai').setup { palette = require('monokai').vibrant }
 ```
 
 ## Customization

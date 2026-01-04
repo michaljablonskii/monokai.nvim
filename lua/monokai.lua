@@ -118,6 +118,35 @@ M.ristretto = {
   diff_text = '#23324d',
 }
 
+M.vibrant = {
+  name = 'monokai_vibrant',
+  base0 = '#16171D',
+  base1 = '#1F2328',
+  base2 = '#16171D',
+  base3 = '#21252B',
+  base4 = '#2c313a',
+  base5 = '#495162',
+  base6 = '#5c6370',
+  base7 = '#D7DAE0',
+  base8 = '#f8f8f0',
+  border = '#3B3C40',
+  brown = '#484848',
+  white = '#f8f8f0',
+  grey = '#5c6370',
+  black = '#000000',
+  pink = '#FF3F4F',
+  green = '#81F900',
+  aqua = '#19D1E5',
+  yellow = '#FFD945',
+  orange = '#FF9700',
+  purple = '#E373CE',
+  red = '#E542FF',
+  diff_add = '#00809B33',
+  diff_remove = '#E54200',
+  diff_change = '#42557B',
+  diff_text = '#314365',
+}
+
 local function remove_italics(config, colors)
   if not config.italics and colors.style == 'italic' then
     colors.style = nil
@@ -871,7 +900,7 @@ M.load_plugin_syntax = function(palette)
 end
 
 local default_config = {
-  palette = M.classic,
+  palette = M.vibrant,
   custom_hlgroups = {},
   italics = true,
 }
